@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirecting to wholeyield.com</title>
+<link rel="canonical" href="https://wholeyield.com/">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=https://wholeyield.com/">
+<script>
+  // Forward the path too, so holeyield.com/anything lands on wholeyield.com/anything.
+  // Falls back to the meta refresh above if scripting is off.
+  (function () {
+    var t = "https://wholeyield.com" + window.location.pathname +
+            window.location.search + window.location.hash;
+    window.location.replace(t);
+  })();
+</script>
+<style>
+  body{
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:#faf7f1; color:#2b2417;
+    display:flex; align-items:center; justify-content:center;
+    min-height:100vh; margin:0; padding:20px; text-align:center;
+  }
+  a{color:#9a5b1b}
+  @media (prefers-color-scheme: dark){
+    body{background:#17140e; color:#ece2cd}
+    a{color:#edb135}
+  }
+</style>
+</head>
+<body>
+  <p>Redirecting to <a href="https://wholeyield.com/">wholeyield.com</a>.</p>
+</body>
+</html>

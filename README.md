@@ -10,9 +10,8 @@ on a GitHub 404. Keep them in sync.
 
 ## Do not touch its MX records
 
-This domain has **live Google Workspace MX records** and is catching mistyped
-mail today. This repo only ever affects A records and the web side. If you are in
-the Namecheap panel for holeyield.com, leave the MX rows alone.
+This domain also carries **live MX records** for mail. This repo only ever
+affects A records and the web side. Leave the MX rows alone.
 
 ## Publishing
 
